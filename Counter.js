@@ -3,13 +3,13 @@ let counter = 0;
 const dec = document.getElementById("dec");
 const res = document.getElementById("res");
 const inc = document.getElementById("inc");
-console.log("Hello, Najibullo");
+console.log("Hello, Najibullo Shamsudinov");
 
 const result = document.getElementById("result");
 
 function checkColor() {
   if (counter < 0) {
-    result.style.color = "red";
+    result.style.color = "pink";
   } else if (counter > 0) {
     result.style.color = "green";
   } else {

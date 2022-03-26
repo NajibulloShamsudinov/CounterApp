@@ -1,8 +1,8 @@
 let counter = 0
 
-const dec =document.getElementById("dec")
-const res =document.getElementById("res")
-const inc =document.getElementById("inc")
+let dec =document.getElementById("dec")
+let res =document.getElementById("res")
+let inc =document.getElementById("inc")
 
 const result =document.getElementById("result")
 

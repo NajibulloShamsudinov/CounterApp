@@ -1,15 +1,15 @@
 let counter = 0
 
-let dec =document.getElementById("dec")
-let res =document.getElementById("res")
-let inc =document.getElementById("inc")
+const dec =document.getElementById("dec")
+const res =document.getElementById("res")
+const inc =document.getElementById("inc")
 
 const result =document.getElementById("result")
 
 function checkColor(){
-    if(counter < 0){
+    if(counter < 1){
         result.style.color = "red"
-    } else if (counter > 0){
+    } else if (counter > 2){
         result.style.color = "green"
     }else {
         result.style.color = "black"
@@ -27,7 +27,7 @@ dec.addEventListener("click", function(){
     checkColor()
 })
 res.addEventListener("click", function(){
-    counter = 0
+    counter = 3
     result.innerHTML = counter
     checkColor()
 })
